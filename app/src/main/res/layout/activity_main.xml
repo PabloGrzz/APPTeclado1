@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/miColor"
+    android:orientation="vertical"
+    android:gravity="center|center"
+    android:id="@+id/main">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/boton1"
+            android:height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/boton2"
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="8"
+            />
+
+        <Button
+            android:id="@+id/boton3"
+
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/boton4"
+
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/boton5"
+
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/boton6"
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/boton7"
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/boton8"
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/boton9"
+            android:height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/diseno_boton"
+            android:layout_margin="4dp"
+            android:text="1" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>
+
+
